@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7627C88E1E9AEF8500CE2057 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7627C88D1E9AEF8500CE2057 /* CoreLocation.framework */; };
 		7639ED791E99726D00DECF22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7639ED781E99726D00DECF22 /* AppDelegate.swift */; };
 		7639ED7B1E99726D00DECF22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7639ED7A1E99726D00DECF22 /* ViewController.swift */; };
 		7639ED7E1E99726D00DECF22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7639ED7C1E99726D00DECF22 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7627C88D1E9AEF8500CE2057 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		7639ED751E99726D00DECF22 /* iosmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7639ED781E99726D00DECF22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7639ED7A1E99726D00DECF22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7627C88E1E9AEF8500CE2057 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7627C88C1E9AEF8500CE2057 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7627C88D1E9AEF8500CE2057 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7639ED6C1E99726D00DECF22 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +92,7 @@
 				7639ED8C1E99726E00DECF22 /* iosmapTests */,
 				7639ED971E99726E00DECF22 /* iosmapUITests */,
 				7639ED761E99726D00DECF22 /* Products */,
+				7627C88C1E9AEF8500CE2057 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -505,6 +517,7 @@
 				7639ED9F1E99726E00DECF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7639EDA01E99726E00DECF22 /* Build configuration list for PBXNativeTarget "iosmapTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				7639EDA21E99726E00DECF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7639EDA31E99726E00DECF22 /* Build configuration list for PBXNativeTarget "iosmapUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				7639EDA51E99726E00DECF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
